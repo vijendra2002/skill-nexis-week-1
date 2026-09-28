@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vijendra Singh Parmar — Computer Science graduate and aspiring full-stack developer.">
+  <title>Vijendra Singh Parmar | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">V<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#education">Education</a>
+        <a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">COMPUTER SCIENCE • FULL-STACK DEVELOPMENT</p>
+        <h1>Hi, I'm <span>Vijendra</span>.<br> I build for the web.</h1>
+        <p class="hero-text">A Computer Science graduate interested in creating useful, responsive web experiences with modern frontend and backend technologies.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Contact me</a>
+        </div>
+        <div class="hero-meta"><span class="status-dot"></span> Open to entry-level opportunities</div>
+      </div>
+      <div class="hero-card" aria-label="Developer profile card">
+        <div class="avatar">VS</div>
+        <p class="hero-card-label">ASPIRING DEVELOPER</p>
+        <h2>Turning ideas<br>into interfaces.</h2>
+        <div class="hero-card-line"></div>
+        <div class="tag-list"><span>React</span><span>JavaScript</span><span>Node.js</span><span>MongoDB</span></div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>A little about me</h2></div>
+      <div class="about-grid">
+        <p class="about-lead">I enjoy learning how web applications work from the user interface to the server and database.</p>
+        <div class="about-detail">
+          <p>I have worked on academic and personal projects using React, JavaScript, Node.js, Express, and MongoDB. I am currently strengthening my fundamentals and building practical experience through hands-on assignments.</p>
+          <div class="skills"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Git & GitHub</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="education">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / EDUCATION</p><h2>Learning & education</h2></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-year">2023 — 2026</div><div><h3>B.Tech — Computer Science Engineering (AI & ML)</h3><p class="muted">Lakshmi Narain College of Technology, Bhopal</p><p>Focused on computer science and artificial intelligence & machine learning as part of the CSE program.</p></div></article>
+          <article class="timeline-item"><div class="timeline-year">2020 — 2023</div><div><h3>Diploma — Computer Science Engineering</h3><p class="muted">Sardar Vallabhbhai Polytechnic College, Bhopal</p><p>Built a foundation in computing and software development concepts.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects I've built</h2></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-top"><span class="project-number">01</span><span class="project-type">MERN</span></div><h3>TaskFlow</h3><p>A task management application with authentication, task operations, and role-based dashboards.</p><div class="project-tags"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div><a href="https://github.com/vijendra2002/TaskFlow-Task-Management-System" target="_blank" rel="noreferrer">View repository ↗</a></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">02</span><span class="project-type">WEB</span></div><h3>DineFlow</h3><p>A restaurant management website project focused on presenting restaurant information and handling contact messages.</p><div class="project-tags"><span>React</span><span>JavaScript</span><span>Web UI</span></div><a href="https://github.com/vijendra2002/dineflow-restaurant-management-system" target="_blank" rel="noreferrer">View repository ↗</a></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">04 / CONTACT</p><h2>Let's connect.</h2><p class="contact-intro">Have an opportunity, project idea, or feedback? Send a message using the form.</p><p class="contact-note">Replace the email placeholder below with your preferred public contact email before publishing.</p></div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+          <label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+          <p class="form-message" id="formMessage" aria-live="polite"></p>
+          <button class="button primary" type="submit">Validate message <span>↗</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span>© <span id="year"></span> Vijendra Singh Parmar</span><a href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

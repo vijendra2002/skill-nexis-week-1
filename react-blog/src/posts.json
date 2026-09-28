@@ -1,0 +1,8 @@
+[
+  {"id":1,"title":"Getting Started with HTML","category":"Frontend","readTime":"4 min read","excerpt":"Understand the structure of a web page and the role of semantic HTML elements.","date":"Sep 18, 2026"},
+  {"id":2,"title":"CSS Layout: Flexbox Basics","category":"CSS","readTime":"6 min read","excerpt":"Learn how to align, distribute, and arrange items along a flexible axis.","date":"Sep 20, 2026"},
+  {"id":3,"title":"JavaScript Events in Practice","category":"JavaScript","readTime":"5 min read","excerpt":"Respond to clicks, form submissions, and user input with event listeners.","date":"Sep 22, 2026"},
+  {"id":4,"title":"React Props and Components","category":"React","readTime":"7 min read","excerpt":"Break interfaces into reusable components and pass data with props.","date":"Sep 24, 2026"},
+  {"id":5,"title":"State and UI Updates","category":"React","readTime":"5 min read","excerpt":"Use state to represent changing data and render the latest interface.","date":"Sep 26, 2026"},
+  {"id":6,"title":"A First Look at MongoDB","category":"Backend","readTime":"8 min read","excerpt":"Explore documents, collections, and how application data can be organized.","date":"Sep 27, 2026"}
+]
